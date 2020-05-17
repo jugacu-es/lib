@@ -1,7 +1,7 @@
 export default interface Content {
   id: number;
   desc: string;
-  type: 'yt' | 'img' | 'video' | 'text';
+  type: 'yt' | 'img' | 'video' | 'text' | 'ph';
   outstanding: string;
   rand_outstanding?: string;
   created_at?: string;
