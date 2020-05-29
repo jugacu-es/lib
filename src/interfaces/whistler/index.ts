@@ -1,4 +1,4 @@
-export default interface FilteredResponse<T> {
+export interface FilteredResponse<T> {
     content: T;
     length: number;
     limit: number;
